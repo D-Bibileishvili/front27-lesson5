@@ -1,0 +1,145 @@
+/* font style */
+@font-face {
+  font-family: "ArchyEDT-Bold";
+  src: url("../fonts/archyedt-bold-webfont.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/archyedt-bold-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/archyedt-bold-webfont.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/archyedt-bold-webfont.woff")
+      format("woff"),
+    /* Pretty Modern Browsers */ url("../fonts/archyedt-bold-webfont.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/archyedt-bold-webfont.svg#archyedt-bold") format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "ALK Tall Nusxuri";
+  src: url("../fonts/alk-tall-nusxuri-webfont.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/alk-tall-nusxuri-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/alk-tall-nusxuri-webfont.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/alk-tall-nusxuri-webfont.woff")
+      format("woff"),
+    /* Pretty Modern Browsers */ url("../fonts/alk-tall-nusxuri-webfont.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/alk-tall-nusxuri-webfont.svg#alk_tall_nusxuriregular")
+      format("svg"); /* Legacy iOS */
+}
+
+.font1 {
+  font-family: "ArchyEDT-Bold";
+}
+
+.font2 {
+  font-family: "ALK Tall Nusxuri";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1640px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/*header styles*/
+nav li {
+  font-size: 20px;
+  padding-left: 100px;
+  padding-top: 73px;
+  display: inline-block;
+}
+
+/*section styles*/
+.mainPhoto {
+  max-width: 1640px;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 103px;
+}
+
+.section-article article {
+  max-width: 483px;
+  width: 100%;
+  padding-bottom: 95px;
+}
+
+section article {
+  display: inline-block;
+  border: 1px solid gray;
+  margin-right: 20px;
+  margin-bottom: 68px;
+}
+
+.section-article p {
+  padding: 33px 25px 33px 12px;
+}
+
+h1 {
+  font-size: 40px;
+  padding-left: 100px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+h2 {
+  padding-left: 12px;
+  font-size: 30px;
+}
+
+p {
+  font-size: 18px;
+}
+
+section a {
+  font-size: 24px;
+  padding-left: 100px;
+}
+
+.loadMore {
+  font-size: 30px;
+  padding-left: 100px;
+  display: block;
+}
+
+/*footer styles*/
+h3 {
+  font-size: 20px;
+}
+
+.misamarti {
+  font-size: 13px;
+}
+
+footer {
+  background-color: #2e2e2e;
+  padding: 67px 100px 78px 100px;
+}
+
+.footer-list {
+  display: inline-block;
+}
+
+.contact {
+  padding-right: 30px;
+}
