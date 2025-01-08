@@ -27,7 +27,7 @@ li {
 nav li {
   font-size: 20px;
   padding-left: 100px;
-  padding-bottom: 73px;
+  padding-top: 73px;
   display: inline-block;
 }
 
@@ -37,7 +37,7 @@ nav li {
   width: 100%;
   padding-left: 50px;
   padding-right: 50px;
-  margin-top: 73px;
+  margin-top: 103px;
 }
 
 .section-article article {
@@ -50,6 +50,7 @@ section article {
   display: inline-block;
   border: 1px solid gray;
   margin-right: 20px;
+  margin-bottom: 68px;
 }
 
 .section-article p {
@@ -85,7 +86,7 @@ section a {
 
 /*footer styles*/
 h3 {
-  font-size: 20;
+  font-size: 30px;
 }
 
 .misamarti {
@@ -95,7 +96,6 @@ h3 {
 footer {
   background-color: #2e2e2e;
   padding: 67px 100px 78px 100px;
-  margin-top: 68px;
 }
 
 .footer-list {
